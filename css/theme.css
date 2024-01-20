@@ -243,3 +243,13 @@ main article .video iframe {
   width: 100%;
   height: 100%;
 }/*# sourceMappingURL=theme.css.map */
+
+main article a img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  main article a img {
+    width: 90%;
+  }
+}
