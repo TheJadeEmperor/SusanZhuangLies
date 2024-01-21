@@ -71,11 +71,11 @@ else {
 <?php
 $headline = array(
   'EN' => "Susan Zhuang the Scammer",
-  'CN' => "骗子庄苏珊"
+  'CN' => "骗子莊文怡"
 );
 $intro = array(
-  'EN' => "Scammer Susan Zhuang's campaign is full of scams, including the biggest scam, which is the fact that she is funded by the CCP - the Chinese Communist Party. She and her supporter Communist Colton has tricked both Chinese and American citizens into thinking she's looking out for their best interests.",
-  'CN' => "骗子庄苏珊的竞选活动充满了骗局，其中最大的一个骗局，就是她的资金来源是中共——中国共产党。 她和她的支持者共产主义科尔顿欺骗了中国和美国公民，让他们认为她在照顾他们的最大利益。"
+  'EN' => "Scammer Susan Zhuang's biggest scam is the fact that she is funded by the CCP - the Chinese Communist Party. While she has fooled you into thinking she's looking out for your best interests, she is trying to slowly turn New York into another Chinese mainland, making it a nightmare for Chinese immigrants who have escaped the mainland.",
+  'CN' => "骗子庄苏珊最大的骗局是她的资金来源是CCP——中国共产党。 虽然她欺骗纽约人以为她是在照顾他们的利益，但她却试图慢慢地将纽约变成另一个中国大陆，让纽约成为逃离大陆的中国移民的噩梦。"
 )
 ?>
 
@@ -126,6 +126,10 @@ $scamSubheadline = array(
         'susan-support' => array(
           'EN' => "SUSAN'S SUPPORT",
           'CN' => '苏珊的支持'
+        ),
+        'vito-ally' => array(
+          'EN' => "Secret Alliance with Vito Labella",
+          'CN' => '与维托·拉贝拉的秘密联盟'
         ),
       );
 
@@ -219,8 +223,10 @@ $scamSubheadline = array(
     ),
 
     'truth' => array(
-      'EN' => '<p>Susan Zhuang is running as a Democrat because she is backed by William Colton, who is a Democrat. She is claiming to have Republican values, which makes no sense, given her situation. She is trying to appeal to the values of the Asian community in District 43. But she is funded by the CCP, which makes her a communist, which consequently, makes her an enemy of all Asian Americans.</p>', 
-      'CN' => '<p>苏珊·庄 (Susan Zhuang) 作为民主党人参选，因为她得到了民主党人威廉·科尔顿 (William Colton) 的支持。 她声称拥有共和党价值观，但考虑到她的处境，这是没有道理的。 她试图迎合43区亚裔社区的价值观。但她受到中共的资助，这使她成为一名共产主义者，从而使她成为所有亚裔美国人的敌人。</p>'
+      'EN' => "<p>Susan Zhuang is running as a Democrat because she is backed by William Colton, who is a Democrat. She is claiming to have Republican values, which makes no sense, given her situation. She is trying to appeal to the values of the Asian community in District 43. But she is funded by the CCP, which makes her a communist, which consequently, makes her an enemy of all Chinese immigrants.</p>
+      <p>You, who have escaped the mainland know how dirt poor the mainland was, making it unlivable for its citizens. You have started a new life here but Susan Zhuang is trying to turn New York into another Chinese mainland with her communist policies, defunding the police, and bail reform.</p>", 
+      'CN' => '<p>庄苏珊作为民主党人参选，因为她得到了民主党人威廉·科尔顿的支持。 她声称拥有共和党价值观，但考虑到她的处境，这是没有道理的。 她试图迎合43区亚裔社区的价值观。但她受到中共的资助，这使她成为一名共产主义者，从而使她成为所有中国移民的敌人。</p>
+      <p>逃离大陆的你都知道大陆有多穷，不适合居民居住。 你已经在这里开始了新的生活，但庄苏珊正试图通过她的共产主义政策、取消警察经费和保释改革将纽约变成另一个中国大陆。</p>'
     ),
 
     'source' => '
@@ -289,14 +295,38 @@ $scamSubheadline = array(
     ),
    
     'source' => '
-    
     <p>Source: <a target="_BLANK" href="https://www.politico.com/newsletters/new-york-playbook/2023/11/06/what-adams-missed-in-dc-00125492">https://www.politico.com/newsletters/new-york-playbook/2023/11/06/what-adams-missed-in-dc-00125492</a></p>
- 
     ', 
   );
 
   showLieTruth ($content); 
 
+
+  $content = array(
+    'id' => 'vito-ally',
+    'title' => "Secret Alliance with Vito Labella",
+    'lie' => array(
+        'EN' => '<p>Susan won the election fair and square, beating both opponents Ying Tan and Vito by a landslide</p>', 
+        'CN' => '<p>苏珊公平公正地赢得了选举</p>'
+    ),
+    'truth' => array(
+        'EN' => "<p>Politics is never what it seems on the surface. Scammer Susan on the Democratic Party has allied with Vito Labella on the Conservative party to steal the election. Vito's opponent is Ying Tan, running on the Republican Party. By having Vito steal some of Ying Tan's votes guarantees Susan's victory.</p>
+        <p>While Republicans are busy fighting each other, Susan can use her CCP money to gain an easy victory. Vito never aimed to win the election to begin with, his job was to steal his opponent's votes, and though he lost, he has reached his objective. In the end, Vito still got paid so dirty politics is about the money, not the people.</p>",
+        'CN' => '<p>政治从来都不是表面看上去的那样。 民主党的骗子苏珊与保守党的维托·拉贝拉结盟，以窃取选举结果。 维托的对手是同属保守党的谭颖。 让维托窃取谭鹰的一些选票就保证了苏珊的胜利。</p>
+        <p>当共和党人忙着互相争斗时，苏珊可以用她的中共钱财轻松获胜。 维托本来就没有以赢得选举为目标，他的工作就是窃取对手的选票，虽然他输了，但他的目的已经达到了。 最终，维托仍然得到了报酬，所以肮脏的政治是关于金钱的，而不是关于人民的。</p>'
+    ),
+   
+    'source' => '<p><a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_vito_ally.png" alt="Scammer Susan Zhuang" /></a>
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_3_way.png" alt="Scammer Susan Zhuang" /></a>
+
+    <p>Sources: <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261">https://twitter.com/VitoLaBella4NY/status/1749183990697763261</a></p>
+    <p>&nbsp;</p>
+    <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn"> https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
+
+    ', 
+  );
+
+  showLieTruth ($content); 
 
   ?>
 
@@ -312,10 +342,12 @@ $scamSubheadline = array(
       Paid for by A Brooklyn Resident Scammed by Susan 
     </div>
 
-    <!--<nav>
-      <ul id="menu-pp-footer" class=""><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://privacy-policy/">Privacy Policy</a></li>
-<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="https://terms-and-conditions/">Terms and Conditions</a></li>
-</ul>    </nav>-->
+    <nav>
+      <ul id="menu-pp-footer" class=""><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a target="_BLANK" href="https://twitter.com/susanzhuangnyc">Scammer's Twitter</a></li>
+    <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a target="_BLANK" href="https://susan4ny.com/">Scammer's Website</a></li>
+    <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a target="_BLANK" href="https://www.facebook.com/susanzhuang43">Scammer's Facebook</a></li>
+</ul>
+</nav>
 
   </footer>
 

@@ -22,15 +22,20 @@ nav ul {
   list-style: none;
 }
 
+footer nav ul li{
+  float: left;
+  margin-right: 22px;
+}
+
 .btn {
   background-color: #f90000;
   padding: 0.5rem 0.75rem;
 }
 
 img {
-  display: block;
+/*  display: block;
+  max-width: 100%;*/
   margin: auto;
-  max-width: 100%;
   height: auto;
 }
 
@@ -245,7 +250,7 @@ main article .video iframe {
 }/*# sourceMappingURL=theme.css.map */
 
 main article a img {
-  width: 50%;
+  width: 48%;
 }
 
 @media (max-width: 768px) {
