@@ -88,44 +88,66 @@ $scamSubheadline = array(
   'EN' => "Susan's Scam List",
   'CN' => "苏珊的诈骗名单",
 );
-
 ?>
 
     <h2 id="lies">&nbsp;<?=$scamSubheadline[$la] ?>&nbsp;</h2>
     <ul>
 
-          <li><a target="_self" href="#covid-communism">Covid Communism</a></li>
+      <?php
+      $scamMenu = array(
+        'covid-communism' => array(
+          'EN' => 'Covid Communism',
+          'CN' => '新冠共产主义'
+        ),
+        'residency' => array(
+          'EN' => "Susan's Residency Scam",
+          'CN' => '苏珊的居住骗局'
+        ),
+        'republican-values' => array(
+          'EN' => 'REPUBLICAN VALUES',
+          'CN' => '共和价值观'
+        ),
+        'chatgpt-chump' => array(
+          'EN' => 'AI ANSWERS',
+          'CN' => '人工智能解答'
+        ),
+        'commie-colton' => array(
+          'EN' => "COLTON'S COMMUNIST LIES",
+          'CN' => "COLTON的共产主义谎言"
+        ),
+        'susan-support' => array(
+          'EN' => "SUSAN'S SUPPORT",
+          'CN' => '苏珊的支持'
+        ),
+      );
 
-          <li><a target="_self" href="#residency">Susan's Residency Scam</a></li>
-
-          <li><a target="_self" href="#republican-values">Republican Values</a></li>
-
-          <li><a target="_self" href="#chatgpt-chump">AI Answers</a></li>
-
-          <li><a target="_self" href="#commie-colton">Colton's Communist Lies</a></li>
-
-          <li><a target="_self" href="#susan-support">Susan's Support</a></li>
- 
+      foreach($scamMenu as $scam) {
+        echo '<li><a target="_self" href="#'.$scam.'">'.$scam[$la].'</a></li>
+        ';
+      }
+      ?>
+        
         </ul>
   </div>
 
   <?php
   function showLieTruth($content) {
-
+    global $la;
     
     echo '<article id="'.$content['id'].'">
       
       <div class="header">
         <img src="./images/x.png">
-        <h3>'.$content['title'].' '. $CN.'</h3>
+        <h3>'.$content['title'].'</h3>
       </div>
       <div class="lie">
         <h4>&nbsp;Scam&nbsp;</h4>
-        '.$content['lie'].'
+        '.$content['lie'][$la].'
       </div>
       <div class="truth">
         <h4>&nbsp;Truth&nbsp;</h4>
-        '.$content['truth'].'
+        '.$content['truth'][$la].'
+        '.$content['source'].'
       </div>
     </article>';
 
@@ -134,9 +156,17 @@ $scamSubheadline = array(
   $content = array(
     'id' => 'covid-communism',
     'title' => 'Covid19 Communism',
-    'lie' => '<p>Susan Zhuang claims to have helped New Yorkers during the Covid19 Crisis</p>', 
-    'truth' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. </p>
+    'lie' => array(
+      'EN' => '<p>Susan Zhuang claims to have helped New Yorkers during the Covid19 Crisis</p>', 
+      'CN' => 'Susan Zhuang 声称在 Covid19 危机期间帮助了纽约人'
+    ),
 
+    'truth' => array(
+      'EN' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. </p>',
+      'CN' => '苏珊一直在印第安纳州哥伦布。 她从中国获得了 8000 个口罩，但这些口罩是为印第安纳州哥伦布市的居民提供的，而不是像她声称的那样是在本森赫斯特。'
+    ),
+
+    'source' => '
     <p>Source: <a target="_BLANK" href="https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/">https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/</a></p>
 
     <p>&nbsp;</p>
@@ -149,10 +179,17 @@ $scamSubheadline = array(
   $content = array(
     'id' => 'residency',
     'title' => 'Residency Scam',
-    'lie' => '<p>Susan Zhuang Claims to be a New Yorker</p>',
 
-    'truth' => '<p>Scammer Susan has been living in Indiana for several years. She changed her address from Indiana to NY no earlier than November 5, 2022. She has stayed in NY for a very short time before running for City Council. She has no understanding of New York, especially Brooklyn. </p>
+    'lie' => array(
+      'EN' => '<p>Susan Zhuang Claims to be a New Yorker</p>', 
+      'CN' => '<p>Susan Zhuang 自称是纽约人</p>'
+    ),
+    'truth' => array(
+      'EN' => '<p>Scammer Susan has been living in Indiana for several years. She changed her address from Indiana to NY no earlier than November 5, 2022. She has stayed in NY for a very short time before running for City Council. She has no understanding of New York, especially Brooklyn. </p>', 
+      'CN' => '<p>骗子苏珊已经在印第安纳州生活了几年。 她不早于 2022 年 11 月 5 日将地址从印第安纳州更改为纽约州。在竞选市议会议员之前，她在纽约州停留了很短的时间。 她对纽约，尤其是布鲁克林不了解。 </p>'
+    ),
     
+    'source' => '
     <p>Source: <a target="_BLANK" href="https://twitter.com/yingtanforny/status/1716585186526187975">https://twitter.com/yingtanforny/status/1716585186526187975</a></p>
 
     <p>&nbsp;</p>
@@ -165,9 +202,18 @@ $scamSubheadline = array(
   $content = array(
     'id' => 'republican-values',
     'title' => 'Republican Values',
-    'lie' => '<p>Susan Zhuang claims to have Republican Values even though she\'s running as a Democrat</p>',
-    'truth' => '<p>Susan Zhuang is running as a Democrat because she is backed by William Colton, who is a Democrat. She is claiming to have Republican values, which makes no sense, given her situation. She is trying to appeal to the values of the Asian community in District 43. But she is funded by the CCP, which makes her a communist, which consequently, makes her an enemy of all Asian Americans.</p>
 
+    'lie' => array(
+      'EN' => '<p>Susan Zhuang claims to have Republican Values even though she\'s running as a Democrat</p>', 
+      'CN' => '<p>苏珊·庄 (Susan Zhuang) 声称自己拥有共和党价值观，尽管她以民主党身份参选</p>'
+    ),
+
+    'truth' => array(
+      'EN' => '<p>Susan Zhuang is running as a Democrat because she is backed by William Colton, who is a Democrat. She is claiming to have Republican values, which makes no sense, given her situation. She is trying to appeal to the values of the Asian community in District 43. But she is funded by the CCP, which makes her a communist, which consequently, makes her an enemy of all Asian Americans.</p>', 
+      'CN' => '<p>苏珊·庄 (Susan Zhuang) 作为民主党人参选，因为她得到了民主党人威廉·科尔顿 (William Colton) 的支持。 她声称拥有共和党价值观，但考虑到她的处境，这是没有道理的。 她试图迎合43区亚裔社区的价值观。但她受到中共的资助，这使她成为一名共产主义者，从而使她成为所有亚裔美国人的敌人。</p>'
+    ),
+
+    'source' => '
       <p>Source: <a target="_BLANK" href="https://nypost.com/2023/06/17/video-shows-brooklyn-dem-council-candidate-is-wannabe-gop/">https://nypost.com/2023/06/17/video-shows-brooklyn-dem-council-candidate-is-wannabe-gop/</a></p>', 
   );
 
@@ -211,7 +257,7 @@ $scamSubheadline = array(
     'title' => 'SUSAN\'S SUPPORT IS COMMUNIST COLTON',
     'lie' => '<p>Being an American of Chinese descent, Susan is a shining example of a hard worker who earned her position at the City Council</p>',
 
-    'truth' => '<p>Susan cheats and takes shortcuts whenever she can. Communist Colton has backed Susan from the beginning of her campaign until the end, even crossing ethical lines to do so. In addition, there is a pending invesigation for unreported in-kind donations in Susan\'s campaign. Most likely it is CCP money.</p>
+    'truth' => '<p>Susan cheats and takes shortcuts whenever she can. Communist Colton has backed Susan from the beginning of her campaign until the end, even crossing ethical lines to do so. In addition, there is a pending invesigation for unreported in-kind donations in Susan\'s campaign. Most likely it is money funneled directly from the Chinese Communist Party.</p>
     
     <p>Source: <a target="_BLANK" href="https://www.politico.com/newsletters/new-york-playbook/2023/11/06/what-adams-missed-in-dc-00125492">https://www.politico.com/newsletters/new-york-playbook/2023/11/06/what-adams-missed-in-dc-00125492</a></p>
  
