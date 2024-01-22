@@ -32,11 +32,23 @@ footer nav ul li{
   padding: 0.5rem 0.75rem;
 }
 
-img {
-/*  display: block;
-  max-width: 100%;*/
+ img {
+  display: block;
+  max-width: 100%;
   margin: auto;
   height: auto;
+}
+
+img.inline {
+  display: inline-block;
+  width: 48%;
+  max-width: 485%;
+}
+
+@media (max-width: 768px) {
+  main article a img {
+    width: 90%;
+  }
 }
 
 a {
@@ -248,13 +260,3 @@ main article .video iframe {
   width: 100%;
   height: 100%;
 }/*# sourceMappingURL=theme.css.map */
-
-main article a img {
-  width: 48%;
-}
-
-@media (max-width: 768px) {
-  main article a img {
-    width: 90%;
-  }
-}

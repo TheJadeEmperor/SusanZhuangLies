@@ -21,6 +21,7 @@ else {
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<title><?=$seoSiteName?></title>
+  <link rel="shortcut icon" href="./images/china_flag.ico">
 	<meta name="description" content="<?=$seoDesc?>">
 	<link rel="canonical" href="<?=$seoUrl?>">
 	<meta property="og:locale" content="en_US">
@@ -119,17 +120,25 @@ $scamSubheadline = array(
           'EN' => 'AI ANSWERS',
           'CN' => '人工智能解答'
         ),
+        'stock-photo' => array(
+          'EN' => 'STOLEN STOCK PHOTOS',
+          'CN' => ''
+        ),
         'commie-colton' => array(
           'EN' => "COLTON'S COMMUNIST LIES",
           'CN' => "COLTON的共产主义谎言"
         ),
         'susan-support' => array(
-          'EN' => "SUSAN'S SUPPORT",
-          'CN' => '苏珊的支持'
+          'EN' => "COLTON'S UNETHICAL SUPPORT FOR SUSAN",
+          'CN' => '科尔顿对苏珊的不道德支持'
         ),
         'vito-ally' => array(
           'EN' => "Secret Alliance with Vito Labella",
           'CN' => '与维托·拉贝拉的秘密联盟'
+        ),
+        'shsat-sadism' => array(
+          'EN' => "Kill the SHSAT?",
+          'CN' => '杀死SHSAT'
         ),
       );
 
@@ -177,8 +186,8 @@ $scamSubheadline = array(
     ),
 
     'truth' => array(
-      'EN' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. </p>',
-      'CN' => '苏珊一直在印第安纳州哥伦布。 她从中国获得了 8000 个口罩，但这些口罩是为印第安纳州哥伦布市的居民提供的，而不是像她声称的那样是在本森赫斯特。'
+      'EN' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. Many Chinese residents who discovered this were shocked and wondered did she just lie to everybody or did she get confused about geography? Mistaking Indiana for New York is like mistaking Hong Kong for Beijing.</p>',
+      'CN' => '苏珊一直在印第安纳州哥伦布。 她从中国获得了 8000 个口罩，但这些口罩是为印第安纳州哥伦布市的居民提供的，而不是像她声称的那样是在本森赫斯特。 许多中国居民发现这一情况后都感到震惊，想知道她到底是在骗大家还是对地理感到困惑？ 将印第安纳州误认为纽约就像将香港误认为北京一样.'
     ),
 
     'source' => '
@@ -260,6 +269,26 @@ $scamSubheadline = array(
 
 
   $content = array(
+    'id' => 'stock-photo',
+    'title' => 'STOLEN STOCK PHOTO',
+    'lie' => array(
+        'EN' => "<p>Susan's social media posts are ethical and of quality</p>", 
+        'CN' => '<p>苏珊的社交媒体帖子符合道德且高质量</p>'
+    ),
+    'truth' => array(
+        'EN' => '<p>Much like using AI to answer questions, Susan is allergic to doing real work as proven when she used an Adobe stock photo during a New Years Post. As depicted below, she even forgot to erase the copyright symbol. Happy Communist New Year my Chinese comrades!</p>', 
+        'CN' => '<p>就像使用人工智能来回答问题一样，苏珊对实际工作过敏，她在新年邮报中使用 Adobe 库存照片就证明了这一点。 如下图所示，她甚至忘记删除版权符号。 我的中国同志，共产主义新年快乐！</p>'
+    ), 
+    
+    'source' => '<a target="_BLANK" href="https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl"><img src="./images/scam_stock_photo.jpg" alt="Scammer Susan Zhuang" /></a>
+
+    <p>Source: <a target="_BLANK" href="https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl">https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl</a></p>', 
+  );
+
+  showLieTruth ($content); 
+
+
+  $content = array(
     'id' => 'commie-colton',
     'title' => 'WILLIAM COLTON THE COMMUNIST',
     'lie' => array(
@@ -284,13 +313,14 @@ $scamSubheadline = array(
 
   $content = array(
     'id' => 'susan-support',
-    'title' => 'SUSAN\'S SUPPORT IS COMMUNIST COLTON',
+    'title' => "COLTON'S UNETHICAL SUPPORT FOR SUSAN",
     'lie' => array(
         'EN' => '<p>Being an American of Chinese descent, Susan is a shining example someone who earned her position at the City Council</p>', 
         'CN' => '<p>作为一名华裔美国人，苏珊是在市议会中获得职位的光辉榜样</p>'
     ),
     'truth' => array(
-        'EN' => '<p>Susan cheats and takes shortcuts whenever she can. Communist Colton has backed Susan from the beginning of her campaign until the end, even crossing ethical lines to do so. In addition, there is a pending invesigation for unreported in-kind donations in Susan\'s campaign. Most likely it is money funneled directly from the Chinese Communist Party.</p>', 
+        'EN' => '<p>Susan cheats and takes shortcuts whenever she can. Communist Colton has backed Susan from the beginning of her campaign until the end, even crossing ethical lines to do so. In addition, there is a pending invesigation for unreported in-kind donations in Susan\'s campaign. Most likely it is money funneled directly from the Chinese Communist Party.</p>
+        <p>Colton, who is a hardcore democrat has supported to defund the NYPD and cashless bail, which puts more criminals on the street. In the past, he supported NYC being a sanctuary city for migrants, which is causing a crisis in NYC. </p>', 
         'CN' => '<p>苏珊一有机会就会作弊并走捷径。 共产党员科尔顿从竞选开始到结束都支持苏珊，甚至跨越了道德界限。 此外，对于苏珊竞选活动中未报告的实物捐赠，还有一项悬而未决的调查。 这很可能是直接来自中国共产党的资金。</p>'
     ),
    
@@ -316,14 +346,50 @@ $scamSubheadline = array(
         <p>当共和党人忙着互相争斗时，苏珊可以用她的中共钱财轻松获胜。 维托本来就没有以赢得选举为目标，他的工作就是窃取对手的选票，虽然他输了，但他的目的已经达到了。 最终，维托仍然得到了报酬，所以肮脏的政治是关于金钱的，而不是关于人民的。</p>'
     ),
    
-    'source' => '<p><a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_vito_ally.png" alt="Scammer Susan Zhuang" /></a>
-    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_3_way.png" alt="Scammer Susan Zhuang" /></a>
+    'source' => '<p><a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_vito_ally.png" alt="Scammer Susan Zhuang" class="inline" /></a>
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_3_way.png" alt="Scammer Susan Zhuang" class="inline" /></a>
 
     <p>Sources: <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261">https://twitter.com/VitoLaBella4NY/status/1749183990697763261</a></p>
     <p>&nbsp;</p>
-    <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn"> https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
+    <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn">https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
+    
+    <p>&nbsp;</p>
+    <p>District 43 is a newly drawn district meant to represent Asians so why would an Italian guy who hates Brooklyn run for office? The only logical conclusion is that Vito made a secret alliance with Willam Communist Colton to steal the election for Susan Zhuang.</p>',
+  );
 
-    ', 
+  showLieTruth ($content); 
+
+
+  $content = array(
+    'id' => 'shsat-sadism',
+    'title' => "Kill the SHSAT?",
+    'lie' => array(
+        'EN' => '<p>Susan supports the SHSAT and she is looking out for Chinese children</p>', 
+        'CN' => '<p>Susan支持SHSAT并关心中国孩子</p>'
+    ),
+    'truth' => array(
+        'EN' => "<p>One of Susan Zhuang's supporters and donors is Rodneyse Bichotte Hermelyn, who strongly opposes the SHSAT. Susan has proven to be incompetent in the basics, using the aid of AI to answer basic questions, and unable to remove a watermark from a stock photo. It is no wonder that Scammer Susan would want to kill the SHSAT, a measure of intelligence.</p> 
+        
+        <p>She is harming your children by hurting their chances of getting into a good high school and college. Do you want your children to go to a good school and get good grades? If Susan is in charge then your children's spot will be stolen by blacks and Hispanics. Did you come all the way from China just to have your children be scammed by another mainlander?</p>",
+        'CN' => '<p><p>Rodneyse Bichotte Hermelyn 是 Susan Zhuang 的支持者和捐助者之一，他强烈反对 SHSAT。 事实证明，苏珊在基础知识方面不胜任，无法利用人工智能的帮助来回答基本问题，并且无法从库存照片中删除水印。 难怪骗子 Susan 会想毁掉 SHSAT（衡量智力的标准）。</p>
+        
+        <p>她正在伤害你的孩子，损害他们进入好高中和大学的机会。 您想让您的孩子上好学校并取得好成绩吗？ 如果苏珊掌权，那么你孩子的位置将被黑人和西班牙裔人抢走。 你千里迢迢从中国来就是为了让你的孩子被另一个大陆人骗吗？</p></p>'
+    ),
+   
+    'source' => '<p>&nbsp;</p>
+    <p><a target="_BLANK" href="https://nypost.com/2023/08/13/parents-beware-nyc-specialized-high-schools-are-coming-under-attack-again/"><img src="./images/scam_shsat_sadism.jpg" alt="Scammer Susan Zhuang" class="inline" /></a>
+ 
+    <a target="_BLANK" href="https://nypost.com/2023/08/13/parents-beware-nyc-specialized-high-schools-are-coming-under-attack-again/"><img src="./images/scam_shsat_protest.jpg" alt="Scammer Susan Zhuang" class="inline" /></a></p>
+ 
+    <p>&nbsp;</p>
+
+    <p>Sources: <a target="_BLANK" href="https://nypost.com/2023/08/13/parents-beware-nyc-specialized-high-schools-are-coming-under-attack-again/
+">https://nypost.com/2023/08/13/parents-beware-nyc-specialized-high-schools-are-coming-under-attack-again/</a></p>
+    
+    <p><a target="_BLANK" href="https://www.nydailynews.com/2023/07/30/make-education-fairer-for-all-specialized-high-schools-must-open-up/">https://www.nydailynews.com/2023/07/30/make-education-fairer-for-all-specialized-high-schools-must-open-up/</a></p>
+
+      <p><a target="_BLANK" href="https://www.city-journal.org/article/the-next-battle-over-racial-preferences">https://www.city-journal.org/article/the-next-battle-over-racial-preferences</a></p>
+      ',
   );
 
   showLieTruth ($content); 
