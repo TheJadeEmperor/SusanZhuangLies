@@ -135,7 +135,7 @@ $scamSubheadline = array(
         ),
         'phony-photos' => array(
           'EN' => 'PHONY PHOTOS',
-          'CN' => ''
+          'CN' => '假照片'
         ),
         'commie-colton' => array(
           'EN' => "COLTON'S COMMUNISM",
