@@ -2,7 +2,7 @@
 $seoUrl = 'https://susanzhuanglies.com/';
 $seoSiteName = 'Scammer Susan Zhuang for City Council District 43';
 $seoDesc = "Scammer Susan Zhuang's campaign is full of scams, including the biggest scam, which is the fact that she is funded by the CCP - the Chinese Communist Party. She and her supporter Communist Colton has tricked both Chinese and American citizens into thinking she's looking out for their best interests.";
-$shareImg = $seoUrl.'images/scam_susan_share.png';
+$shareImg = $seoUrl.'images/scam_postcard.png';
 
 global $la;
 
@@ -85,7 +85,16 @@ $intro = array(
     </h1>
     <p><?=$intro[$la]?></p>
 
-    <img width="2048" height="1365" src="./images/scam_susan_zhuang.jpg" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="./images/scam_susan_zhuang.jpg 2048w, ./images/scam_susan_zhuang.jpg 300w, ./images/scam_susan_zhuang.jpg 1024w, ./images/scam_susan_zhuang.jpg 768w, ./images/scam_susan_zhuang.jpg 1536w" sizes="(max-width: 2048px) 100vw, 2048px">  </header>
+    <?php
+    $n = rand() % 100;
+    
+    if ($n % 2 == 0)
+      $imgBG = "./images/scam_susan_zhuang.jpg";
+    else 
+      $imgBG = "./images/scam_postcard.jpg";
+    ?>
+
+    <img width="2048" height="1365" src="<?=$imgBG?>" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="<?=$imgBG?> 2048w, <?=$imgBG?> 300w, <?=$imgBG?> 1024w, <?=$imgBG?> 768w, <?=$imgBG?> 1536w" sizes="(max-width: 2048px) 100vw, 2048px">  </header>
 <main>
   <div class="lies">
     <div class=" arrow">
@@ -109,7 +118,7 @@ $scamSubheadline = array(
           'CN' => '新冠共产主义'
         ),
         'residency' => array(
-          'EN' => "Susan's Residency Scam",
+          'EN' => "Residency Scam",
           'CN' => '苏珊的居住骗局'
         ),
         'republican-values' => array(
@@ -122,14 +131,18 @@ $scamSubheadline = array(
         ),
         'stock-photo' => array(
           'EN' => 'STOLEN STOCK PHOTOS',
+          'CN' => '被盗的库存照片'
+        ),
+        'phony-photos' => array(
+          'EN' => 'PHONY PHOTOS',
           'CN' => ''
         ),
         'commie-colton' => array(
-          'EN' => "COLTON'S COMMUNIST LIES",
-          'CN' => "COLTON的共产主义谎言"
+          'EN' => "COLTON'S COMMUNISM",
+          'CN' => "COLTON的共产主义"
         ),
         'susan-support' => array(
-          'EN' => "COLTON'S UNETHICAL SUPPORT FOR SUSAN",
+          'EN' => "UNETHICAL SUPPORT",
           'CN' => '科尔顿对苏珊的不道德支持'
         ),
         'vito-ally' => array(
@@ -143,8 +156,7 @@ $scamSubheadline = array(
       );
 
       foreach($scamMenu as $scam => $menu) {
-        echo '<li><a target="_self" href="#'.$scam.'">'.$menu[$la].'</a></li>
-        ';
+        echo '<li><a target="_self" href="#'.$scam.'">'.$menu[$la].'</a></li>';
       }
       ?>
         
@@ -283,6 +295,33 @@ $scamSubheadline = array(
     'source' => '<a target="_BLANK" href="https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl"><img src="./images/scam_stock_photo.jpg" alt="Scammer Susan Zhuang" /></a>
 
     <p>Source: <a target="_BLANK" href="https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl">https://www.facebook.com/susanzhuang43/posts/pfbid02bNGSVxX94M5dgFJFbdwiK516z5sqVGBJvwrKxDe4ikrPwkHoYsX65XL1K5Y55Abwl</a></p>', 
+  );
+
+  showLieTruth ($content); 
+
+$phony_photo_embed = '<video width="320" height="240" controls>
+<source src="images/scam_photo_phony.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>';
+
+$content = array(
+    'id' => 'phony-photos',
+    'title' => 'PHONY PHOTO PHOTOSHOP',
+    'lie' => array(
+        'EN' => '<p>Susan Zhuang claims that her previous opponent, Wai Yee Chan, and her current oppnent, Ying Tan, have formed an alliance. Wai Yee Chan is a Democrat and it is unsightly to see her team up with Ying Tan, a Republican.</p>
+        '.$phony_photo_embed,
+        'CN' => '<p>Susan Zhuang声称她的前对手陈惠仪和她现在的对手谭颖结成了联盟。 陈慧仪是民主党人，看到她与共和党人陈英颖合作，实在是不雅观。</p>
+        '.$phony_photo_embed
+    ),
+    'truth' => array(
+        'EN' => "<p>Susan also forgot to remove the watermark on THIS photo that she conveniently cropped just to form her nasty narrative. The cropped photo shows Ying Tan and Wai Yee Chan being friendly together. The original photo shows an extra person, one of Susan's staff, as you can clearly see Susan's name on the woman's shirt. So are Susan and Ying Tan in a secret alliance?</p>
+        <p>If you follow Susan on wechat you might have seen this claim. But it is fake news.</p>", 
+        'CN' => '<p>苏珊还忘记删除这张照片上的水印，她方便地剪掉了这张照片，只是为了形成她令人讨厌的叙述。 裁剪后的照片显示谭颖和陈惠仪友好地在一起。 原始照片中多了一个人，是苏珊的一名工作人员，因为你可以在该女子的衬衫上清楚地看到苏珊的名字。 那么苏珊和谭颖是秘密联盟吗？</p>
+        <p>如果您在微信上关注 Susan，您可能会看到此声明。 但这是假新闻。</p>'
+    ), 
+    'source' => '<p><a target="_BLANK" href="https://twitter.com/JCColtin/status/1686749857044725760"><img src="./images/scam_photo_real.jpg" alt="Scammer Susan Zhuang" /></a></p>
+    <p>&nbsp;</p>
+    <p>Source: <a target="_BLANK" href="https://twitter.com/JCColtin/status/1686749857044725760">https://twitter.com/JCColtin/status/1686749857044725760</a></p>', 
   );
 
   showLieTruth ($content); 

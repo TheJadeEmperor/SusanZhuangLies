@@ -57,6 +57,14 @@ a {
   color: #0f1cc3;
 }
 
+article a {
+  white-space: pre-wrap; /* CSS3 */    
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
 header {
   background-color: #202226;
   padding: 10rem 2rem 6rem 2rem;
@@ -206,6 +214,7 @@ main .lies ul li a {
   color: #37393d;
   text-transform: uppercase;
   font-size: 1.25rem;
+  margin-right: 8px;
 }
 main article {
   width: 100%;
