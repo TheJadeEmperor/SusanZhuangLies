@@ -210,16 +210,19 @@ $scamSubheadline = array(
     ),
 
     'truth' => array(
-      'EN' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. Many Chinese residents who discovered this were shocked and wondered did she just lie to everybody or did she get confused about geography? Mistaking Indiana for New York is like mistaking Hong Kong for Beijing.</p>',
+      'EN' => '<p>Susan was in Columbus, Indiana the whole time. She secured 8,000 masks from China, but it was for residents of Columbus, Indiana, not in Bensonhurst like she claimed. Many Chinese residents who discovered this were shocked and wondered did she just lie to everybody or did she get confused about geography? Mistaking Indiana for New York is like mistaking Hong Kong for Beijing.</p>
+      <p>In the video below, Susan was confronted about her lie during her meeting, to which she admitted she was not in NYC during that time. Also, she confused the numbers. She said she brought 80,000 masks while in reality it was only 8,000. Basic English is too difficult for so maybe she should use AI to answer questions on her behalf...or maybe learn English first?</p>',
       'CN' => '苏珊一直在印第安纳州哥伦布。 她从中国获得了 8000 个口罩，但这些口罩是为印第安纳州哥伦布市的居民提供的，而不是像她声称的那样是在本森赫斯特。 许多中国居民发现这一情况后都感到震惊，想知道她到底是在骗大家还是对地理感到困惑？ 将印第安纳州误认为纽约就像将香港误认为北京一样.'
     ),
 
-    'source' => '
+    'source' => '<p>&nbsp;</p>
+
     <p>Source: <a target="_BLANK" href="https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/">https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/</a></p>
 
     <p>&nbsp;</p>
     
-    <p><a target="_BLANK" href="https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/"><img src="./images/covid_communism.png" alt="Susan Zhuang Scam" width="50%" /></a></p>', 
+    <p><a target="_BLANK" href="https://nypost.com/2023/03/25/nyc-council-candidate-ripped-for-lying-about-helping-nyers-during-covid/"><img src="./images/covid_communism.png" alt="Susan Zhuang Scam" width="50%" /></a>
+    </p>', 
   );
 
   showLieTruth ($content); 
@@ -326,12 +329,12 @@ $content = array(
         '.$phony_photo_embed
     ),
     'truth' => array(
-        'EN' => "<p>Susan also forgot to remove the watermark on THIS photo that she conveniently cropped just to form her nasty narrative. The cropped photo shows Ying Tan and Wai Yee Chan being friendly together. The original photo shows an extra person, one of Susan's staff, as you can clearly see Susan's name on the woman's shirt. So are Susan and Ying Tan in a secret alliance?</p>
-        <p>If you follow Susan on wechat you might have seen this claim. But it is fake news.</p>", 
+        'EN' => "<p>Susan also forgot to remove the watermark on THIS photo that she conveniently cropped just to form her nasty narrative. The cropped photo shows Ying Tan and Wai Yee Chan being friendly together. The original photo shows an extra person, one of Susan's staff, as you can clearly see Susan's name on the woman's shirt. So are Susan and Ying Tan in a secret alliance? If you follow Susan on wechat you might have seen this claim. But it is fake news. </p>
+        <p>The woman in pink had an issue with Ying Tan, as seen the video called Cantonese Crackhead on this site. But they resolved their differences just before this photo was taken. Peace between opponents is possible between the fellow Cantonese. But it's even worse when Susan uses this photo for her fake news narrative, especially after these women have made peace. </p>", 
         'CN' => '<p>苏珊还忘记删除这张照片上的水印，她方便地剪掉了这张照片，只是为了形成她令人讨厌的叙述。 裁剪后的照片显示谭颖和陈惠仪友好地在一起。 原始照片中多了一个人，是苏珊的一名工作人员，因为你可以在该女子的衬衫上清楚地看到苏珊的名字。 那么苏珊和谭颖是秘密联盟吗？</p>
         <p>如果您在微信上关注 Susan，您可能会看到此声明。 但这是假新闻。</p>'
     ), 
-    'source' => '<p><a target="_BLANK" href="https://twitter.com/JCColtin/status/1686749857044725760"><img src="./images/scam_photo_real.jpg" alt="Scammer Susan Zhuang" /></a></p>
+    'source' => '<p>&nbsp;</p><p><a target="_BLANK" href="https://twitter.com/JCColtin/status/1686749857044725760"><img src="./images/scam_photo_real.jpg" alt="Scammer Susan Zhuang" /></a></p>
     <p>&nbsp;</p>
     <p>Source: <a target="_BLANK" href="https://twitter.com/JCColtin/status/1686749857044725760">https://twitter.com/JCColtin/status/1686749857044725760</a></p>', 
   );
@@ -392,20 +395,30 @@ $content = array(
     ),
     'truth' => array(
         'EN' => "<p>Politics is never what it seems on the surface. Scammer Susan on the Democratic Party has allied with Vito Labella on the Conservative party to steal the election. Vito's opponent is Ying Tan, running on the Republican Party. By having Vito steal some of Ying Tan's votes guarantees Susan's victory.</p>
-        <p>While Republicans are busy fighting each other, Susan can use her CCP money to gain an easy victory. Vito never aimed to win the election to begin with, his job was to steal his opponent's votes, and though he lost, he has reached his objective. In the end, Vito still got paid so dirty politics is about the money, not the people.</p>",
+        <p>While Republicans are busy fighting each other, Susan can use her CCP money to gain an easy victory. Vito never aimed to win the election to begin with, his job was to steal his opponent's votes, and though he lost, he has reached his objective. In the end, Vito still got paid so dirty politics is about the money, not the people.</p>
+        <p>District 43 is a newly drawn district meant to represent Asians so why would an Italian guy who hates Brooklyn run for office? The only logical conclusion is that Vito made a secret alliance with Willam Communist Colton to steal the election for Susan Zhuang.</p>",
         'CN' => '<p>政治从来都不是表面看上去的那样。 民主党的骗子苏珊与保守党的维托·拉贝拉结盟，以窃取选举结果。 维托的对手是同属保守党的谭颖。 让维托窃取谭鹰的一些选票就保证了苏珊的胜利。</p>
         <p>当共和党人忙着互相争斗时，苏珊可以用她的中共钱财轻松获胜。 维托本来就没有以赢得选举为目标，他的工作就是窃取对手的选票，虽然他输了，但他的目的已经达到了。 最终，维托仍然得到了报酬，所以肮脏的政治是关于金钱的，而不是关于人民的。</p>'
     ),
    
-    'source' => '<p><a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_vito_ally.png" alt="Scammer Susan Zhuang" class="inline" /></a>
-    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_3_way.png" alt="Scammer Susan Zhuang" class="inline" /></a>
+    'source' => '
+    <div class="row">
+  <div class="column">
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_vito_ally.png" alt="Scammer Susan Zhuang"/></a>
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/susan_vito_alliance_2.jpg" alt="Scammer Susan Zhuang" /></a>
+  </div>
+  <div class="column">
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/scam_3_way.png" alt="Scammer Susan Zhuang" /></a>
+    <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261"><img src="./images/susan_vito_alliance_1.jpg" alt="Scammer Susan Zhuang" /></a>
 
-    <p>Sources: <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261">https://twitter.com/VitoLaBella4NY/status/1749183990697763261</a></p>
-    <p>&nbsp;</p>
-    <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn">https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
+  </div>
+</div>
     
     <p>&nbsp;</p>
-    <p>District 43 is a newly drawn district meant to represent Asians so why would an Italian guy who hates Brooklyn run for office? The only logical conclusion is that Vito made a secret alliance with Willam Communist Colton to steal the election for Susan Zhuang.</p>',
+    <p>Sources: <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261">https://twitter.com/VitoLaBella4NY/status/1749183990697763261</a></p>
+    
+    <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn">https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
+',
   );
 
   showLieTruth ($content); 
@@ -460,7 +473,12 @@ $content = array(
     ),
     'source' => '<p>&nbsp;</p>
     <video width="320" height="240" controls>
-  <source src="images/pathetic_parking.mp4" type="video/mp4"> 
+  <source src="images/pathetic_parking_1.mp4" type="video/mp4"> 
+  Your browser does not support the video tag.
+  </video>
+  
+    <video width="320" height="240" controls>
+  <source src="images/pathetic_parking_2.mp4" type="video/mp4"> 
   Your browser does not support the video tag.
   </video>'
   );
@@ -476,9 +494,9 @@ $content = array(
       'CN' => '<p>Susan Zhuang 的员工/志愿者不会骚扰或激怒他们的对手</p>'
   ),
   'truth' => array(
-    'EN' => "<p>In the first video, the Cantonese Crackhead, one of Susan Zhuang's most famous volunteers, was seen criticizing the opponent Ying Tan. Though it looks like she's yelling, being a Cantonese speaker myself, I will give her the benefit of the doubt and say that's her normal volume. If I were scammer Susan I would call it \"harassment\" but since I'm objective, I will call it annoyance or nuisance.</p>
+    'EN' => "<p>In the first video, the Cantonese Crackhead, one of Susan Zhuang's most famous volunteers, was seen criticizing the opponent Ying Tan. If I were Lying Susan I would call it \"harassment\" but since I'm objective, I will call it annoyance or nuisance. Imagine trying to work while this Crackhead is interrupting you constantly? </p>
 
-    <p>The Crackhead said \"YT didn't graduate college.\" Yet her boss Susan uses AI to answer basic questions and is not able to grasp basic English. Furthermore, the Crackhead said \"YT lives in Queens and shouldn't be running for an office in Brooklyn.\" Once again, the irony isn't lost because her boss Susan lives in Indiana. I suggest the Crackhead learn some basic geography before talking about someone else's education. As a Cantonese, I am ashamed by her and we do not claim her. </p>", 
+    <p>Fortunately (or unfortunately) as a Cantonese speaker I can translate what she said for you. The Crackhead said \"YT didn't graduate college.\" Yet her boss Susan uses AI to answer basic questions and is not able to grasp basic English. Furthermore, the Crackhead said \"YT lives in Queens and shouldn't be running for an office in Brooklyn.\" Once again, the irony isn't lost because her boss Susan lives in Indiana. I suggest the Crackhead learn some basic geography before talking about someone else's education. As a Cantonese speaker, I am ashamed by her and we do not claim her.</p>", 
     'CN' => '<p>在第一个视频中，庄苏珊最著名的志愿者之一广东瘾君子批评对手谭颖。 虽然她看起来像是在大喊大叫，但作为一个说粤语的人，我会假设她是在大喊大叫，并说这是她的正常音量。 如果我是骗子苏珊，我会称之为“骚扰”，但由于我很客观，我会称之为烦恼或滋扰。</p>
 
     <p>傻瓜说“YT 大学没毕业。”然而她的老板 Susan 使用人工智能来回答基本问题，却无法掌握基本英语。 此外，这位傻瓜还说“YT 住在皇后区，不应该竞选布鲁克林的办公室。”再一次，讽刺的是，她的老板苏珊住在印第安纳州。 我建议疯子在谈论别人的教育之前先学一些基础地理。 作为一个广东人，我为她感到羞耻，我们不认她。</p>'
