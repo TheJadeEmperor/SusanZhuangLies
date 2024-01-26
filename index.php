@@ -153,6 +153,18 @@ $scamSubheadline = array(
           'EN' => "Kill the SHSAT?",
           'CN' => '杀死SHSAT'
         ),
+        'pathetic-parking' => array(
+          'EN' => "Pathethic Parking",
+          'CN' => '可悲的停车'
+        ),
+        'cantonese-crackhead-1' => array(
+          'EN' => "Susan's Slaves 1",
+          'CN' => '苏珊的奴隶1'
+        ),
+        'cantonese-crackhead-2' => array(
+          'EN' => "Susan's Slaves 2",
+          'CN' => '苏珊的奴隶2'
+        ),
       );
 
       foreach($scamMenu as $scam => $menu) {
@@ -432,6 +444,80 @@ $content = array(
   );
 
   showLieTruth ($content); 
+
+  $content = array(
+    'id' => 'pathetic-parking',
+    'title' => "Susan's Pathetic Parking",
+    'lie' => array(
+        'EN' => '<p>1) Susan is a law abiding citizen who is a shining example for other citizens to follow. 2) She knows how to park her car. 3) She claims the man in the video touched her body. </p>', 
+        'CN' => '<p></p>'
+    ),
+    'truth' => array(
+      'EN' => "<p>Susan Zhuang constantly breaks the rules at her convenience and hasn't been charged because of her status. In the video, her car is improperly parked and she refuses to move it for at least 5 minutes.</p>
+      <p>Then she claims the man with the camera touched her body. He denied it, saying he only touched her phone. The beginning was not recorded so it is unknown if the touching happened. But one can take a look at Susan's face and body and wonder who would want to touch that? She did not press charges against the alleged harassment, knowing she herself has been caught breaking the law.</p>", 
+      'CN' => '<p>庄苏珊经常在方便的时候违反规定，但由于她的身份，她没有受到指控。 视频中，她的车停放不当，并且她拒绝移动汽车至少 5 分钟。</p>
+      <p>然后她声称拿着相机的男人触摸了她的身体。 他否认了这一点，称他只是碰了她的手机。 开头没有被记录，因此不知道触摸是否发生。 但人们可以看看苏珊的脸和身体，然后想知道谁会想碰它？ 她没有对所谓的骚扰提出指控，因为她知道自己已经被发现违法</p>'
+    ),
+    'source' => '<p>&nbsp;</p>
+    <video width="320" height="240" controls>
+  <source src="images/pathetic_parking.mp4" type="video/mp4"> 
+  Your browser does not support the video tag.
+  </video>'
+  );
+
+  showLieTruth ($content); 
+
+
+$content = array(
+  'id' => 'cantonese-crackhead-1',
+  'title' => "Susan's Cantonese Crackhead",
+  'lie' => array(
+      'EN' => "<p>Susan Zhuang's employees/volunteers do not harass or annoy their opponents</p>", 
+      'CN' => '<p>Susan Zhuang 的员工/志愿者不会骚扰或激怒他们的对手</p>'
+  ),
+  'truth' => array(
+    'EN' => "<p>In the first video, the Cantonese Crackhead, one of Susan Zhuang's most famous volunteers, was seen criticizing the opponent Ying Tan. Though it looks like she's yelling, being a Cantonese speaker myself, I will give her the benefit of the doubt and say that's her normal volume. If I were scammer Susan I would call it \"harassment\" but since I'm objective, I will call it annoyance or nuisance.</p>
+
+    <p>The Crackhead said \"YT didn't graduate college.\" Yet her boss Susan uses AI to answer basic questions and is not able to grasp basic English. Furthermore, the Crackhead said \"YT lives in Queens and shouldn't be running for an office in Brooklyn.\" Once again, the irony isn't lost because her boss Susan lives in Indiana. I suggest the Crackhead learn some basic geography before talking about someone else's education. As a Cantonese, I am ashamed by her and we do not claim her. </p>", 
+    'CN' => '<p>在第一个视频中，庄苏珊最著名的志愿者之一广东瘾君子批评对手谭颖。 虽然她看起来像是在大喊大叫，但作为一个说粤语的人，我会假设她是在大喊大叫，并说这是她的正常音量。 如果我是骗子苏珊，我会称之为“骚扰”，但由于我很客观，我会称之为烦恼或滋扰。</p>
+
+    <p>傻瓜说“YT 大学没毕业。”然而她的老板 Susan 使用人工智能来回答基本问题，却无法掌握基本英语。 此外，这位傻瓜还说“YT 住在皇后区，不应该竞选布鲁克林的办公室。”再一次，讽刺的是，她的老板苏珊住在印第安纳州。 我建议疯子在谈论别人的教育之前先学一些基础地理。 作为一个广东人，我为她感到羞耻，我们不认她。</p>'
+  ),
+  'source' => '<p>&nbsp;</p>
+  <video width="320" height="240" controls>
+<source src="images/cantonese_crackhead_1.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>'
+);
+
+showLieTruth ($content);
+
+
+
+$content = array(
+  'id' => 'cantonese-crackhead-2',
+  'title' => "Susan's Cantonese Crackhead 2",
+  'lie' => array(
+      'EN' => "<p>Susan Zhuang's employees/volunteers play by the rules</p>", 
+      'CN' => '<p>Susan Zhuang 的员工/志愿者遵守规则</p>'
+  ),
+  'truth' => array(
+    'EN' => "<p>In this video, the same Cantonese Crackhead was asked to leave the polling site. Rules state that one cannot pass out flyers within 100 feet of the polling site. The employee scolded her and asked her to leave. She responded with 'Ok ok ok'. But does she really understand what she did wrong? She doesn't seem to grasp basic English but hopefully she knew she was wrong by breaking the rules.</p>
+
+    <p>This Cantonese Crackhead really does take after her boss. Monkey see, monkey do. She sees Boss Susan breaking the rules and she follows her example. Corruption starts from the very top and trickles down.</p>", 
+    'CN' => '<p>在这段视频中，这位广东狂人被要求离开投票站。 规则规定，投票站 100 英尺范围内不得散发传单。 这名员工斥责了她并要求她离开。 她回答说“好吧好吧好吧”。 但她真的明白自己做错了什么吗？ 她似乎不懂基本的英语，但希望她知道自己违反规则是错误的。</p>
+
+    <p>这个广东瘾君子确实很像她的老板。 有样学样。 她看到苏珊老板违反了规则，她就以她为榜样。 腐败从最高层开始，逐渐向下蔓延。</p>'
+  ),
+  'source' => '<p>&nbsp;</p>
+  <video width="320" height="240" controls>
+<source src="images/cantonese_crackhead_2.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>'
+);
+
+showLieTruth ($content);
+
 
   ?>
 
