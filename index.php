@@ -418,7 +418,8 @@ $content = array(
     <p>Sources: <a target="_BLANK" href="https://twitter.com/VitoLaBella4NY/status/1749183990697763261">https://twitter.com/VitoLaBella4NY/status/1749183990697763261</a></p>
     
     <p><a target="_BLANK" href="https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn">https://ny1.com/nyc/all-boroughs/politics/2023/11/02/race-heats-up-for-an-open-city-council-seat-in-brooklyn</a></p>
-',
+
+    <p><a target="_BLANK" href="https://x.com/HowardGraubard/status/1674028817155751938?s=20">https://x.com/HowardGraubard/status/1674028817155751938?s=20</a></p>',
   );
 
   showLieTruth ($content); 
