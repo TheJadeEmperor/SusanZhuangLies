@@ -113,6 +113,10 @@ $scamSubheadline = array(
 
       <?php
       $scamMenu = array(
+        'kung-fu-biting' => array(
+          'EN' => 'Kung Fu Biting',
+          'CN' => '新冠共产主义'
+        ),
         'covid-communism' => array(
           'EN' => 'Covid Communism',
           'CN' => '新冠共产主义'
@@ -200,6 +204,50 @@ $scamSubheadline = array(
     </article>';
 
   }
+
+
+  $content = array(
+    'id' => 'kung-fu-biting',
+    'title' => 'Kung Fu Biting',
+    'lie' => array(
+      'EN' => '<p>Susan attended an anti-shelter protest in Bensonhurst. As a City Councilwoman, Susan is a law abiding citizen who protests peacefully</p>', 
+      'CN' => '苏珊参加了本森赫斯特的一场反对收容所抗议活动。作为一名市议员，苏珊是一位守法的公民，她以和平的方式进行抗议'
+    ),
+
+    'truth' => array(
+      'EN' => '<p>During a protest on 07/16, Susan peacefully bit a police officer on the arm. Afterwards, she was arrested. Susan was seen in the video wearing her signature pink shirt, handcuffed to a metal fence and screaming something incoherent. Minutes later, she was taken into a police car. It is noted that she bit the police officer before she was handcuffed.</p>',
+      'CN' => '在 7 月 16 日的抗议活动中，苏珊平静地咬了一名警察的手臂。之后，她被捕了。视频中可以看到苏珊穿着标志性的粉色衬衫，被铐在金属栅栏上，嘴里喊着一些语无伦次的话。几分钟后，她被带上警车。据了解，在被戴上手铐之前，她咬了警察。'
+    ),
+
+    'source' => '<p>&nbsp;</p>
+
+    <p>Sources: <a target="_BLANK" href="https://nypost.com/2024/07/17/us-news/irate-nyc-councilwoman-busted-in-scream-filled-clash-with-cops-at-homeless-shelter-protest/
+">https://nypost.com/2024/07/17/us-news/irate-nyc-councilwoman-busted-in-scream-filled-clash-with-cops-at-homeless-shelter-protest/
+</a></p>
+
+<p> <a target="_BLANK" href="https://x.com/EndWokeness/status/1813915101914644833
+">https://x.com/EndWokeness/status/1813915101914644833</a></p>
+
+ <div class="row">
+  <div class="column">
+  <video width="320" height="240" controls>
+<source src="images/kung_fu_biting_1.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>
+  </div>
+  <div class="column">
+  <video width="320" height="240" controls>
+<source src="images/kung_fu_biting_2.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>
+  </div>
+  </div>
+', 
+  );
+
+  showLieTruth ($content); 
+
+
 
   $content = array(
     'id' => 'covid-communism',
