@@ -236,10 +236,7 @@ Your browser does not support the video tag.
 </video>
   </div>
   <div class="column">
-  <video width="320" height="240" controls>
-<source src="images/kung_fu_biting_2.mp4" type="video/mp4"> 
-Your browser does not support the video tag.
-</video>
+  <a href="images/kung_fu_biting.jpg"><img src="images/kung_fu_biting.jpg" alt="Scammer Susan Zhuang" /></a>
   </div>
   </div>
 ', 
